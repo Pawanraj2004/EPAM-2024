@@ -23,11 +23,7 @@ class ReverseString {
             left++;
             right--;   
         }
-        String res=new String();
-        for(char ch:arr){
-            res+=ch;
-        } 
-        return res;
+        return new String(arr);
     }
     public static void main(String[] args) {
         String str = "a@b#c_";
